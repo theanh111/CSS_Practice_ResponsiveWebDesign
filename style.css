@@ -1,0 +1,44 @@
+body {
+    margin: 0 auto;
+    font-family: Arial, Tahoma;
+}
+
+#s-body {
+    float: left;
+}
+
+#head, #head-link, #s-body, #footer {
+    width: 100%;
+    margin-bottom: 5px;
+    clear: both;
+}
+
+@media all and (min-width: 1001px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    body {
+        background-color: orange;
+    }
+}
